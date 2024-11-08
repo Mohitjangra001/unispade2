@@ -12,6 +12,7 @@
   
   .question-answer {
     width: 100%;
+    text-align: left;
     color: #4a4a4a; /* This is the Tailwind color `text-gray-700` */
   }
   
@@ -21,6 +22,19 @@
     background-color: #e7e3e9;
     margin-top: 3rem;
   }
+
+  .question-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-icon {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  
   
 
   @media screen and (max-width: 768px) {
