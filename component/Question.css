@@ -1,0 +1,28 @@
+.question-container {
+    width: 1097px;
+    height: 83px;
+    margin: 3rem 0;
+  }
+  
+  .question-title {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .question-answer {
+    color: #000000; 
+    font-family: 'Poppins', sans-serif;
+    margin-top:1rem ;
+    font-size: 16px;
+
+    /* This is the Tailwind color `text-gray-700` */
+  }
+  
+  .question-divider {
+    width: 663px;
+    height: 1.5px;
+    background-color: #e7e3e9;
+    margin-top: 3rem;
+  }
+  

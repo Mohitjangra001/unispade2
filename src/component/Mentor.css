@@ -1,0 +1,82 @@
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin-top: 5rem; /* Tailwind's mt-20 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 840px;
+  height: 60px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 45px; /* Tailwind's text-5xl */
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* Tailwind's text-[16px] */
+  margin-top: 3.5rem; /* Tailwind's mt-14 */
+  text-align: center;
+  width: 1054px;
+  height: 50px;
+}
+
+.mentor-list {
+  margin-top: 2.5rem; /* Tailwind's mt-10 */
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* Tailwind's space-y-10 */
+}
+
+.footer {
+  margin-top: 2px; /* Tailwind's my-24 */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  height: 150px;
+  width: 1024px;
+  text-align: center;
+  gap: 30px;
+}
+
+.footer-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* Tailwind's text-[16px] */
+  line-height: 1.625rem;
+  align-items: center; /* Tailwind's leading-[26px] */
+
+}
+
+
+@media screen and (max-width: 768px) {
+ .title{
+  width: 100%;
+  font-size: 24px;
+ }
+ 
+ .description{
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+ }
+
+ .footer{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+ }
+
+
+
+ 
+
+}
+

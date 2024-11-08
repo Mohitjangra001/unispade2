@@ -1,0 +1,124 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-section {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text-section {
+  width: 562px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 70px 0;
+}
+
+.text-section .title-text {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  height: 192px;
+  width: 100%;
+}
+
+.text-section .description-text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 569px;
+  height: 208px;
+}
+
+.image-section .mentor-image {
+  width: 627px;
+  height: 471.49px;
+}
+
+.arrow-section .down-arrow {
+  /* Add any specific styling for the arrow here */
+}
+.find-mentor-button {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #191e22;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin-bottom: 450px;
+  }
+
+  .content-section {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .image-section {
+    margin-top: 20px;
+    order: -1;
+  }
+
+  .image-section .mentor-image {
+    width: 350px;
+    height: auto;
+  }
+
+  .arrow-section {
+    margin-top: 20px; /* Add space between the image and the arrow */
+  }
+
+  .text-section {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .text-section .title-text {
+    font-size: 24px;
+  }
+
+  .text-section .description-text {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .find-mentor-button {
+    width: 90%;
+    height: 50px;
+    border: 1px solid #191e22;
+    border-radius: 50px;
+    /* margin-top: 140px; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .arrow-section {
+    display: none;
+  }
+}
