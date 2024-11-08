@@ -1,0 +1,92 @@
+.workflow-container {
+    width: 100%;
+    height: 1447px;
+    background-color: #f8f8f8;
+  }
+  
+  .workflow-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .workflow-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 56px;
+  }
+  
+  .workflow-description {
+    width: 966px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  .step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .step-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #191e22;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 24px;
+  }
+  
+  .step-text {
+    margin-top: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 966px;
+    text-align: center;
+  }
+  
+  .step-line {
+    margin-top: 24px;
+  }
+  
+  .explore-button-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .explore-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #191e22;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background-color: #191e22;
+    text-align: center;
+    margin-top: 40px;
+  }
+  

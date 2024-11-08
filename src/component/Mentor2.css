@@ -1,0 +1,102 @@
+/* Mentor2.css */
+
+.mentor-container {
+  height: 667px;
+  margin: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mentor-title {
+  width: 861px;
+  height: 50px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.mentor-description {
+  width: 1046px;
+  height: 63px;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.mentor-table-container {
+  width: 100%;
+  max-width: 1018px;
+  margin-top: 4rem;
+}
+
+.mentor-table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.mentor-table-header {
+  background-color: #F8F8F8;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  height: 62px;
+}
+
+.mentor-table-heading {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  color: black;
+}
+
+.mentor-table-row {
+  border-top: 1px solid #D1D5DB;
+  height: 62px;
+}
+
+.mentor-table-cell {
+  padding: 0.75rem 1rem;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+}
+
+.mentor-bio {
+  width: 340px;
+  margin-right: 1rem;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rating-star {
+  color: black;
+}
+
+.rating-empty-star {
+  color: #E7E3E9;
+}
+
+.mentor-footer-text {
+  width: 1046px;
+  height: 63px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 3.5rem 0 1rem;
+}
+
+.mentor-footer-note {
+  width: 1046px;
+  height: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
