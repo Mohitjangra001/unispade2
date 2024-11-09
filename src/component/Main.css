@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .content-section {
@@ -14,7 +13,7 @@
 }
 
 .text-section {
-  width: 562px;
+  width: 582px;
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -28,6 +27,7 @@
   font-family: "Montserrat", sans-serif;
   height: 192px;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .text-section .description-text {

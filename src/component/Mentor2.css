@@ -16,6 +16,7 @@
   font-size: 45px;
   line-height: 64px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .mentor-description {
@@ -146,15 +147,17 @@
   }
 
   .mentor-title{
-    width: 100%;
+    width: 90%;
     height: auto;
     font-size: 24px;
     line-height: 1.5;
+
   }
   
   .mentor-description{
     width: 100%;
     height: auto;
+    padding: 10px 30px;
   }
 
   .mentor-table-container{

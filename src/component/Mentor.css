@@ -12,6 +12,7 @@
   width: 840px;
   height: 60px;
   text-align: center;
+  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 45px; /* Tailwind's text-5xl */
@@ -21,7 +22,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px; /* Tailwind's text-[16px] */
-  margin-top: 3.5rem; /* Tailwind's mt-14 */
+  margin-top: 2rem; /* Tailwind's mt-14 */
   text-align: center;
   width: 1054px;
   height: 50px;
