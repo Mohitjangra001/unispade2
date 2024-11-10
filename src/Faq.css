@@ -4,6 +4,8 @@
     align-items: center;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+    border-bottom: 1px solid #E7E3E9;
+
   }
   
   .faq-heading {
@@ -51,11 +53,12 @@
   }
   
   .faq-questions {
-    margin-left: 7.5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 80%;
+    margin: auto;
   }
   
   @media screen and (max-width: 768px) {
@@ -72,6 +75,7 @@
       width: 100%;
       height: auto;
       margin: 0;
+      text-align: left;
     }
 
     .faq-image{
