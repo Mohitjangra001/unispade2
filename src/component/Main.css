@@ -1,18 +1,18 @@
-.main-container {
+.main-section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.content-section {
+.main-content-wrapper {
   margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.text-section {
+.main-text-content {
   width: 582px;
   height: 120px;
   display: flex;
@@ -21,7 +21,7 @@
   padding: 70px 0;
 }
 
-.text-section .title-text {
+.main-title-heading {
   font-size: 45px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
@@ -30,7 +30,7 @@
   text-transform: uppercase;
 }
 
-.text-section .description-text {
+.main-description-content {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -38,16 +38,17 @@
   height: 208px;
 }
 
-.image-section .mentor-image {
+.main-image-section .main-mentor-photo {
   width: 627px;
-  height: 471.49px;
+  margin-top: 45px;
+  /* height: 471.49px; */
 }
 
-.arrow-section .down-arrow {
+.main-arrow-icon .main-down-arrow {
   /* Add any specific styling for the arrow here */
 }
 
-.find-mentor-button {
+.main-mentor-button {
   width: 250px;
   height: 50px;
   border: 1px solid #191e22;
@@ -60,7 +61,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main-container {
+  .main-section-container {
     width: 100%;
     flex-direction: column;
     text-align: center;
@@ -68,7 +69,7 @@
     margin-bottom: 450px;
   }
 
-  .content-section {
+  .main-content-wrapper {
     padding: 10px;
     width: 100%;
     display: flex;
@@ -79,39 +80,41 @@
     align-items: center;
   }
 
-  .image-section {
+  .main-image-section {
     margin-top: 20px;
     order: -1;
-  }
-
-  .image-section .mentor-image {
-    width: 350px;
     height: auto;
+    width: 100%;
   }
 
-  .arrow-section {
+  .main-mentor-photo {
+    width: 100%;
+    
+  }
+
+  .main-arrow-icon {
     margin-top: 20px; /* Add space between the image and the arrow */
   }
 
-  .text-section {
+  .main-text-content {
     width: 100%;
     padding-top: 10px;
   }
-  .text-section .title-text {
+  
+  .main-title-heading {
     font-size: 24px;
   }
 
-  .text-section .description-text {
+  .main-description-content {
     width: 100%;
     height: fit-content;
   }
 
-  .find-mentor-button {
+  .main-mentor-button {
     width: 90%;
     height: 50px;
     border: 1px solid #191e22;
     border-radius: 50px;
-    /* margin-top: 140px; */
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -119,7 +122,7 @@
     margin: auto;
   }
 
-  .arrow-section {
+  .main-arrow-icon {
     display: none;
   }
 }

@@ -35,6 +35,7 @@
 }
 
 .mentor-table {
+  text-align: left;
   width: 100%;
   background-color: white;
   border-collapse: collapse;

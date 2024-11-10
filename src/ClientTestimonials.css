@@ -1,4 +1,4 @@
-.testimonials-container {
+.client-testimonials {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -7,23 +7,22 @@
   margin-bottom: 5rem;
   border-bottom: 1px solid #E7E3E9;
   width: 100%;
-  overflow: visible;
-
+  overflow: visible; 
 }
 
-.testimonials-carousel{
+.client-testimonials-carousel {
   width: 65%;
   height: auto;
   margin: auto;
 }
 
-.testimonial-slide {
+.testimonial-card {
   border-radius: 10px;
   padding: 20px;
   height: fit-content;
 }
 
-.testimonials-title {
+.client-testimonials-title {
   width: 583px;
   height: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -31,10 +30,10 @@
   font-size: 45px;
   line-height: 64px;
   text-align: center;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
-.testimonials-intro {
+.client-testimonials-intro {
   width: 1024px;
   height: 50px;
   font-family: 'Poppins', sans-serif;
@@ -45,7 +44,7 @@
   margin-bottom: 40px;
 }
 
-.testimonials-quote {
+.testimonial-card-quote {
   width: 100%;
   height: 150px;
   font-family: 'Poppins', sans-serif;
@@ -57,27 +56,27 @@
   margin-bottom: 10px;
 }
 
-.profile-details {
+.testimonial-card-details {
   width: 100%;
   height: 39px;
   text-align: center;
 }
 
-.profile-name {
+.testimonial-card-name {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
-.profile-role {
+.testimonial-card-role {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-align: center;
 }
 
-.testimonials-footer {
+.client-testimonials-footer {
   width: 1024px;
   font-weight: 400;
   text-align: center;
@@ -87,35 +86,34 @@
 }
 
 @media (max-width: 768px) {
-  .testimonials-title {
+  .client-testimonials-title {
     font-size: 24px;
     line-height: 36px;
     width: auto;
   }
 
-  .testimonials-container{
+  .client-testimonials {
     margin: 10px 0 20px 0;
     gap: 1.5rem;
   }
 
-  .testimonials-intro,
-  .testimonials-footer {
+  .client-testimonials-intro,
+  .client-testimonials-footer {
     width: 100%;
     height: auto;
     font-size: 16px;
     line-height: 24px;
-    height: auto;
     margin-bottom: 10px;
   }
 
-  .testimonials-quote {
+  .testimonial-card-quote {
     width: 100%;
     height: auto;
     font-size: 16px;
     line-height: 30px;
   }
 
-  .profile-details{
+  .testimonial-card-details {
     height: auto;
   }
 }

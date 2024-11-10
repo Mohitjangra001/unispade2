@@ -19,17 +19,11 @@ function App() {
       <FindMentor></FindMentor>
       <WorkFlow></WorkFlow>
       <Mentor></Mentor>
-      <div className=""></div>
       <Mentor2></Mentor2>
-      <div className=""></div>
     <ClientTestimonials/>
-      <div className=""></div>
       <CarrerResoure></CarrerResoure>
-      <div className=""></div>
       <Faq></Faq>
-      <div className=""></div>
       <LastSect></LastSect>
-      {/* <div className="w-full h-[1.5px] bg-[#E7E3E9] my-14"></div> */}
 
     </div>
   );
