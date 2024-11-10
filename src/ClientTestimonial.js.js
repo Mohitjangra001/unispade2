@@ -6,23 +6,10 @@ import "./ClientTestimonials.css";
 function ClientTestimonials() {
   const testimonials = [
     {
-      quote:
-        "Connecting with a product design mentor through Unispade has transformed my approach to work. I’m grateful for the personalised guidance and valuable insights!",
-      name: "Simran Gupta",
-      role: "Product Manager",
-    },
-    {
-      quote:
-        "The mentorship I received through Unispade was invaluable. It allowed me to refine my product strategy and approach with confidence.",
-      name: "Jason K.",
-      role: "Startup Founder",
-    },
-    {
-      quote:
-        "Unispade connected me with a mentor who provided insights tailored to my career goals. I highly recommend it!",
-      name: "Emily R.",
-      role: "Product Designer",
-    },
+      quote:"Working with my mentor:Vikash Gaurav has been transformative. Their guidance helped me master key industry skills and navigate complex challenges with confidence. They broke down tough concepts into manageable steps, turning confusion into clarity. I'm grateful for their unwavering support and the invaluable knowledge they've shared. Truly an inspiring mentor!",
+        name: "Pavitra Kumar Gupta",
+        role: "Mentee",
+      },
   ];
 
   const items = testimonials.map((testimonial, index) => (
