@@ -6,7 +6,21 @@
   align-items: center;
   margin-bottom: 5rem;
   border-bottom: 1px solid #E7E3E9;
+  width: 100%;
+  overflow: visible;
 
+}
+
+.testimonials-carousel{
+  width: 65%;
+  height: auto;
+  margin: auto;
+}
+
+.testimonial-slide {
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
 }
 
 .testimonials-title {
@@ -32,7 +46,7 @@
 }
 
 .testimonials-quote {
-  width: 972px;
+  width: 100%;
   height: 150px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -44,7 +58,7 @@
 }
 
 .profile-details {
-  width: 152px;
+  width: 100%;
   height: 39px;
   text-align: center;
 }
@@ -72,7 +86,6 @@
   margin-bottom: 2rem;
 }
 
-/* Media Query for Small Screens */
 @media (max-width: 768px) {
   .testimonials-title {
     font-size: 24px;
