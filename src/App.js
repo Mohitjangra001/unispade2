@@ -1,5 +1,5 @@
 import "./App.css";
-import ClientTestimonials from "./ClientTestimonial.js.js";
+import ClientTestimonials from "./component/ClientTestimonial.js.js";
 import CarrerResoure from "./component/CarrerResoure.js";
 import FindMentor from "./component/FindMentor.js";
 import LastSect from "./component/LastSect.js";
@@ -7,7 +7,7 @@ import Main from "./component/Main.js";
 import Mentor from "./component/Mentor.js";
 import Mentor2 from "./component/Mentor2.js";
 import WorkFlow from "./component/WorkFlow.js";
-import Faq from "./Faq.js";
+import Faq from "./component/Faq.js";
 
 function App() {
 

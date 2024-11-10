@@ -1,6 +1,6 @@
 import React from 'react';
-import faqPic from './assets/faqPhoto.png';
-import Question from './component/Question';
+import faqPic from './../assets/faqPhoto.png';
+import Question from './Question';
 import "./Faq.css";
 
 const faqData = [
